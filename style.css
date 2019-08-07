@@ -1,0 +1,92 @@
+body {
+  background-color: #d0cbdd;
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #6f69c4;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #6f69c4;
+  font-size: 31px;
+  line-height: 1.6;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #5050D0;
+  font-weight: 900;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #384075;
+  font-size: 17px;
+}
+
+li > a {
+  font-family: Font Awesome 5 Brands;
+  font-size: 44px;
+  color: #5050D0;
+}
+
+li > a:hover {
+  font-size: 50px;
+  color: #384075;
+}
+
+ul > li {
+  display: inline;
+  padding: 0;
+  list-style: none;
+}
+
+.border-50 {
+  border-radius: 50%;
+}
+
+ul {
+  padding-left: 0;
+}
+
+
+.container {
+  background-color: #d0cbdd;
+  padding: 30px;
+  width: 1000px;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.card {
+  border-radius: 7px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 0px;
+  border-style: double;
+  box-shadow: 5px 5px 13px #8b93ce;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
