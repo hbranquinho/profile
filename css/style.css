@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+@import url("components/cards.css");
+
+
+body {
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #6f69c4;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #6f69c4;
+  font-size: 31px;
+  line-height: 1.6;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #5050D0;
+  font-weight: 900;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #384075;
+  font-size: 17px;
+}
+
+li > a {
+  font-family: Font Awesome 5 Brands;
+  font-size: 44px;
+  color: #797bb3;
+}
+
+li > a:hover {
+  text-decoration: none;
+  font-size: 50px;
+  color: #d3d7ec;
+}
+
+ul {
+  padding: 12px;
+  margin: 0;
+}
+
+ul > li {
+  display: inline;
+  padding: 0;
+  list-style: none;
+}
